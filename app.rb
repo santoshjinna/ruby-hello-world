@@ -15,7 +15,7 @@ def configure_database
       sleep 0.1
     end
   end
-  puts "Connected to database"
+  puts "Connected to testing santosh database"
   puts "Create database..."
   %x"rake db:create"
   puts "Run migrations..."
