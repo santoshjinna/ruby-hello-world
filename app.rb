@@ -7,6 +7,7 @@ set :port, 8080
 get '/' do
   "Hello World"
 end  
+=begin
 def configure_database
   if ENV['RACK_ENV']=="production"
     while !self.connect_to_database_prod
@@ -71,3 +72,4 @@ delete '/keys/:id' do
     "Key not found"
   end
 end
+=end
