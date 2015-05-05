@@ -16,7 +16,7 @@ def configure_database
     end
   end
   puts "Connected to testing jlt database"
-  puts "Create another lab3 database here ----testing it -----------"
+  puts "Create another lab3 database here ----testing it here sample-----------"
   %x"rake db:create"
   puts "Run migrations..."
   %x"rake db:migrate"
