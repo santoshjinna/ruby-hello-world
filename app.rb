@@ -16,7 +16,7 @@ def configure_database
     end
   end
   puts "Connected to testing santosh database"
-  puts "Create another database..."
+  puts "Create another lab3 database..."
   %x"rake db:create"
   puts "Run migrations..."
   %x"rake db:migrate"
