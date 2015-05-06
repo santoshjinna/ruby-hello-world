@@ -8,5 +8,6 @@ get '/' do
 # and then passed to the container when openshift launches it.
   "User is #{ENV['ADMIN_USERNAME']}\n"+
   "Password is #{ENV['ADMIN_PASSWORD']}\n"+
-  "DB password is #{ENV['DB_PASSWORD']}\n"
+  "DB password is #{ENV['DB_PASSWORD']}\n"+
+  "This is the final statement\n"
 end
